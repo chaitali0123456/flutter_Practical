@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:practical7/boxcolorchange.dart';
+import 'package:practical7/appbar.dart';
+// import 'package:practical7/boxcolorchange.dart';
 import 'package:practical7/increment.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
         title: "this is app",
-        home:ColorsChange() 
+        home: AppIcon() 
       
     );
   }

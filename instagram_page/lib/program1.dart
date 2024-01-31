@@ -20,6 +20,7 @@ class Instagram extends StatelessWidget {
           color: Colors.black,
             child: SingleChildScrollView(
               scrollDirection: Axis.vertical,
+              
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 // crossAxisAlignment: CrossAxisAlignment.center,
@@ -29,7 +30,7 @@ class Instagram extends StatelessWidget {
                     child: Image.network("https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-james-wheeler-417074.jpg&fm=jpg",
                     fit: BoxFit.cover,),
                     height: 400,
-                    // width: 400,
+                    width: 400,
                       
                   ),
 
@@ -86,7 +87,7 @@ class Instagram extends StatelessWidget {
                     child: Image.network("https://static.vecteezy.com/system/resources/previews/022/448/291/non_2x/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg",
                     fit: BoxFit.cover,),
                     height: 400,
-                    // width: 200,
+                    width: 400,
                     
                   ),
                   Row(

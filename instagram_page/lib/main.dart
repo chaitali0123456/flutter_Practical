@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:instagram_page/program1.dart';
+// import 'package:instagram_page/program1.dart';
+import 'package:instagram_page/program3.dart';
 
 void main() {
   runApp(const MainApp());
@@ -13,7 +14,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "this is app",
-      home: Instagram(),
+      home: Insta_App(),
     );
   }
 }
