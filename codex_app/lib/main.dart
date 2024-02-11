@@ -1,4 +1,5 @@
-import 'package:codex_app/program1.dart';
+// import 'package:codex_app/program1.dart';
+import 'package:codex_app/reusable.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MainApp extends StatelessWidget {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "CodeX App",
-      home: CodeX(),
+      home: ReusableCards(),
     );
   }
 }

@@ -178,7 +178,7 @@ class CodeX extends StatelessWidget {
 
             SizedBox(height: 20,),
             SingleChildScrollView(
-              scrollDirection: Axis.vertical,
+              scrollDirection: Axis.horizontal,
 
             child: Row(
               children: [

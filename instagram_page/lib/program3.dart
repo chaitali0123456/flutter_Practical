@@ -18,7 +18,7 @@ class Insta_App extends StatelessWidget {
       body: SizedBox(
         child: Container(
           height: double.infinity,
-          width: double.infinity,
+          // width: double.infinity,
 
           child: SingleChildScrollView(scrollDirection: Axis.vertical,
 
@@ -31,9 +31,10 @@ class Insta_App extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
+                    SizedBox(width: 10,),
                     Container(
-                    height: 50,
-                    width: 50,
+                    height: 80,
+                    width: 80,
                     decoration: BoxDecoration(
                     border: Border.all(color: Color.fromARGB(255, 246, 69, 128),width: 2 ,style: BorderStyle.solid),
                     borderRadius: BorderRadius.circular(300),
@@ -41,9 +42,10 @@ class Insta_App extends StatelessWidget {
                     )
                   ),  
                 ),
+                SizedBox(width: 10,),
                   Container(
-                  height: 50,
-                  width: 50,
+                  height: 80,
+                  width: 80,
                   decoration: BoxDecoration(
                     border: Border.all(color: Color.fromARGB(255, 239, 63, 122),width: 2 ,style: BorderStyle.solid),
                     borderRadius: BorderRadius.circular(300),
@@ -51,9 +53,10 @@ class Insta_App extends StatelessWidget {
                     )
                   ),  
                 ),
+                SizedBox(width: 10,),
                 Container(
-                  height: 50,
-                  width: 50,
+                  height: 80,
+                  width: 80,
                   decoration: BoxDecoration(
                     border: Border.all(color: Color.fromARGB(255, 252, 73, 133),width: 2 ,style: BorderStyle.solid),
                     borderRadius: BorderRadius.circular(300),
@@ -61,9 +64,10 @@ class Insta_App extends StatelessWidget {
                     )
                   ),  
                 ),
+                SizedBox(width: 10,),
                 Container(
-                  height: 50,
-                  width: 50,
+                  height: 80,
+                  width: 80,
                   decoration: BoxDecoration(
                     border: Border.all(color: Color.fromARGB(255, 253, 70, 131),width: 2 ,style: BorderStyle.solid),
                     borderRadius: BorderRadius.circular(300),
@@ -71,9 +75,10 @@ class Insta_App extends StatelessWidget {
                     )
                   ),  
                 ),
+                SizedBox(width: 10,),
                 Container(
-                  height: 50,
-                  width: 50,
+                  height: 80,
+                  width: 80,
                   decoration: BoxDecoration(
                     border: Border.all(color: Color.fromARGB(255, 253, 94, 147),width: 2 ,style: BorderStyle.solid),
                     borderRadius: BorderRadius.circular(300),
@@ -81,9 +86,10 @@ class Insta_App extends StatelessWidget {
                     )
                   ),  
                 ),
+                SizedBox(width: 10,),
                 Container(
-                  height: 50,
-                  width: 50,
+                  height: 80,
+                  width: 80,
                   decoration: BoxDecoration(
                     border: Border.all(color: Color.fromARGB(255, 250, 73, 132),width: 2 ,style: BorderStyle.solid),
                     borderRadius: BorderRadius.circular(300),
@@ -91,9 +97,10 @@ class Insta_App extends StatelessWidget {
                     )
                   ),  
                 ),
+                SizedBox(width: 10,),
                 Container(
-                  height: 50,
-                  width: 50,
+                  height: 80,
+                  width: 80,
                   decoration: BoxDecoration(
                     border: Border.all(color: Color.fromARGB(255, 246, 79, 135),width: 2 ,style: BorderStyle.solid),
                     borderRadius: BorderRadius.circular(300),
@@ -101,9 +108,10 @@ class Insta_App extends StatelessWidget {
                     )
                   ),  
                 ),
+                SizedBox(width: 10,),
                 Container(
-                  height: 50,
-                  width: 50,
+                  height: 80,
+                  width: 80,
                   decoration: BoxDecoration(
                     border: Border.all(color: Color.fromARGB(255, 248, 66, 127),width: 2 ,style: BorderStyle.solid),
                     borderRadius: BorderRadius.circular(300),
@@ -111,9 +119,10 @@ class Insta_App extends StatelessWidget {
                     )
                   ),  
                 ),
+                SizedBox(width: 10,),
                 Container(
-                  height: 50,
-                  width: 50,
+                  height: 80,
+                  width: 80,
                   decoration: BoxDecoration(
                     border: Border.all(color: Color.fromARGB(255, 253, 63, 127),width: 2 ,style: BorderStyle.solid),
                     borderRadius: BorderRadius.circular(300),
@@ -121,9 +130,10 @@ class Insta_App extends StatelessWidget {
                     )
                   ),  
                 ),
+                SizedBox(width: 10,),
                 Container(
-                  height: 50,
-                  width: 50,
+                  height: 80,
+                  width: 80,
                   decoration: BoxDecoration(
                     border: Border.all(color: Color.fromARGB(255, 251, 81, 138),width: 2 ,style: BorderStyle.solid),
                     borderRadius: BorderRadius.circular(300),
@@ -134,8 +144,8 @@ class Insta_App extends StatelessWidget {
                   ],
               ),
             ),
-            SizedBox(height: 10,),
-            Text("@ajay_thakur", style: TextStyle(fontWeight: FontWeight.bold),),
+            SizedBox(height: 15,width: 100,),
+            Text("@ajay_thakur", style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),),
 
             SizedBox(height: 15,),
             SingleChildScrollView(scrollDirection: Axis.vertical,
@@ -143,7 +153,7 @@ class Insta_App extends StatelessWidget {
               children: [
                 Container(
                   height: 240,
-                  width: 400,
+                  width: 360,
                   child: Image.network("https://images.indulgexpress.com/uploads/user/imagelibrary/2018/11/13/original/AjayThakur_Kabaddi.jpg",
                   fit: BoxFit.cover,),
 
@@ -158,12 +168,13 @@ class Insta_App extends StatelessWidget {
                 IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.share,color:Color.fromARGB(255, 13, 0, 0)),tooltip: "like", color: Colors.blue,),
 
                 Container(
-                  width: 280,
+                  width: 210,
+                  height: 30,
                 ),  
               ],
             ),
           SizedBox(height: 10,),
-            Text("@aslam_inamdar", style: TextStyle(fontWeight: FontWeight.bold),),
+            Text("@aslam_inamdar", style: TextStyle(fontWeight: FontWeight.bold , fontSize: 20),),
 
             SizedBox(height: 15,),
             SingleChildScrollView(scrollDirection: Axis.vertical,
@@ -171,7 +182,7 @@ class Insta_App extends StatelessWidget {
               children: [
                 Container(
                   height: 240,
-                  width: 400,
+                  width: 360,
                   child: Image.network("https://staticg.sportskeeda.com/editor/2023/11/6b770-16999318976739-1920.jpg?w=840",
                   fit: BoxFit.cover,),
 
@@ -186,12 +197,13 @@ class Insta_App extends StatelessWidget {
                 IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.share,color:Color.fromARGB(255, 13, 0, 0)),tooltip: "like", color: Colors.blue,),
 
                 Container(
-                  width: 280,
+                width: 210,
+                  height: 30,
                 ),   
               ],
             ),
             SizedBox(height: 10,),
-            Text("@shadulu", style: TextStyle(fontWeight: FontWeight.bold),),
+            Text("@shadulu", style: TextStyle(fontWeight: FontWeight.bold , fontSize: 20),),
 
             SizedBox(height: 15,),
             SingleChildScrollView(scrollDirection: Axis.vertical,
@@ -199,7 +211,7 @@ class Insta_App extends StatelessWidget {
               children: [
                 Container(
                   height: 240,
-                  width: 400,
+                  width: 360,
                   child: Image.network("https://i0.wp.com/goldandhra.com/wp-content/uploads/2024/01/Pro-Kabaddi-2023-Captain-Aslam-Inamdar-Reflects-on-Puneri-Paltans-Dominant-Victory.webp?fit=1200%2C900&ssl=1",
                   fit: BoxFit.cover,),
 
@@ -214,12 +226,13 @@ class Insta_App extends StatelessWidget {
                 IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.share,color:Color.fromARGB(255, 13, 0, 0)),tooltip: "like", color: Colors.blue,),
 
                 Container(
-                  width: 280,
+                  width: 210,
+                  height: 30,
                 ),  
               ],
             ),
             SizedBox(height: 10,),
-            Text("@kabaddi_adda", style: TextStyle(fontWeight: FontWeight.bold),),
+            Text("@kabaddi_adda", style: TextStyle(fontWeight: FontWeight.bold , fontSize: 20),),
 
             SizedBox(height: 15,),
             SingleChildScrollView(scrollDirection: Axis.vertical,
@@ -227,7 +240,7 @@ class Insta_App extends StatelessWidget {
               children: [
                 Container(
                   height: 240,
-                  width: 400,
+                  width: 360,
                   child: Image.network("https://staticg.sportskeeda.com/editor/2023/11/a556e-17012684135208-1920.jpg?w=840",
                   fit: BoxFit.cover,),
 
@@ -242,7 +255,8 @@ class Insta_App extends StatelessWidget {
                 IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.share,color:Color.fromARGB(255, 13, 0, 0)),tooltip: "like", color: Colors.blue,),
 
                 Container(
-                  width: 280,
+                  width: 210,
+                  height: 30,
                 )   
               ],
             )
