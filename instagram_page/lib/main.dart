@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 // import 'package:instagram_page/program1.dart';
-import 'package:instagram_page/program3.dart';
+import 'package:instagram_page/InstagramPage.dart';
 
 void main() {
   runApp(const MainApp());

@@ -7,7 +7,7 @@ class Insta_App extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Instagram",style:TextStyle(fontWeight: FontWeight.bold, fontSize: 25) ,),
+        title: Text("Instagram",style:TextStyle(fontWeight: FontWeight.bold, fontSize: 25,color: Colors.white) ,),
         backgroundColor: Colors.black,
         actions: [
           IconButton(onPressed: (){print("click add");},icon: Icon(Icons.favorite),color: const Color.fromARGB(255, 247, 247, 245),),
