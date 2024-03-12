@@ -122,7 +122,7 @@ class _CodesState extends State<Codes> {
                     height: 60,
                     width: 300,
                     child: Text(
-                      'lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ',
+                      'Java is a high-level, class-based, object-oriented programming language , Designed by James Gosling ',
                       
                     ),
                   ),
@@ -148,7 +148,7 @@ class _CodesState extends State<Codes> {
                     height: 60,
                     width: 300,
                     child: Text(
-                      'lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+                      'Java is platform-independent because it is compiled to a bytecode that can be run on any device that has a Java Virtual Machine (JVM). ',
                       
                     ),
                   ),
